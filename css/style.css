@@ -151,12 +151,12 @@ body {
 @media (max-width: 786px) {
   .auto-type {
     color: white;
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: 24px; /* Adjust font size as needed */
     white-space: nowrap;
     overflow: hidden;
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: auto;
     transform: translate(-50%, 50%);
   }
 }
@@ -378,6 +378,7 @@ body {
   position: relative;
   margin: 65px 0 25px 0;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+  height: 430px;
 }
 
 .service-item .service-img {
@@ -415,7 +416,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: #ffffff;
+  background: #f99d1c;
   transition: 0.5s;
 }
 
@@ -449,7 +450,7 @@ body {
   height: 100px;
   top: -100%;
   left: 0;
-  transform: skewY(-12deg);
+  /* transform: skewY(-12deg); */
   background: #ffffff;
   transition: 0.5s;
 }
@@ -800,6 +801,11 @@ footer {
   }
 }
 
+@media (min-width: 992px) {
+  #footers .our-office {
+    margin-left: 150px !important;
+  }
+}
 /* career pages */
 
 /* about page css */
@@ -909,6 +915,7 @@ footer {
 .list-group-item i {
   margin-right: 5px;
   color: #007bff;
+  font-size: 30px;
 }
 
 .step {
